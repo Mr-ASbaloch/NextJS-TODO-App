@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body  className={inter.className}>
-        <div className='flex  mt-5 flex-col w-[50%] mx-auto  shadow-lg p-2 rounded-lg bg-slate-100'>
+        <div className='flex  mt-5 flex-col px-2 mx-5 md:w-[50%] md:mx-auto  shadow-lg p-2 rounded-lg bg-slate-100'>
 
         <Navbar/>
         
