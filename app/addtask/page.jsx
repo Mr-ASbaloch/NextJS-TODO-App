@@ -23,7 +23,7 @@ const AddTask = () => {
           className="border  p-2 mb-3 rounded-md"
         />
         <button className=" w-full bg-blue-500 text-white p-2 text-center rounded-md mb-3">
-          Add task
+          Add task 
         </button>
       </form>
     </>
