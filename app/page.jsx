@@ -5,7 +5,7 @@ const page = () => {
   return (
     <div >
       
-      <h1 className='text-center md:text-2xl font-serif'> " Tasks List " </h1>
+      <h1 className='text-center md:text-2xl font-serif'>  Tasks List  </h1>
       <TaskList/>
       </div>
   )
