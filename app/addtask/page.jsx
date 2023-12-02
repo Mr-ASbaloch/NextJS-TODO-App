@@ -3,9 +3,12 @@ import React, { useState } from "react";
 // import React from "react";
 import {  toast } from "react-toastify";
 
-import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const AddTask = () => {
+  
  
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
@@ -13,7 +16,7 @@ const AddTask = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!title || !description) {
-      toast.success('fill all fields!', {
+      toast.warning('fill all fields!', {
         position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
@@ -66,7 +69,9 @@ const AddTask = () => {
   };
 
   return (
+    
     <>
+    <ToastContainer/>
       <form
         action="post"
         onSubmit={handleSubmit}
