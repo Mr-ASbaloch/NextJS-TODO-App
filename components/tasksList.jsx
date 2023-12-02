@@ -23,8 +23,8 @@ const getTasks = async () => {
 
 const TaskList = async () => {
   
-  const { lists } = await getTasks();
-  console.log(lists);
+  // const { lists } = await getTasks();
+  // console.log(lists);
   
   
 
