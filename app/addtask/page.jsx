@@ -51,7 +51,7 @@ const AddTask = () => {
           });
       } else {
         throw new Error(
-          toast.error('fill all fields!', {
+          toast.error(Error, {
             position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,
